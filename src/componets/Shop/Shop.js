@@ -13,13 +13,13 @@ const Shop = () => {
     const handeler=(product)=>{
       const newCart=[...cart,product.name]
       setCart(newCart);
-    console.log(product);
-      
+    // console.log(product);
     }
+    
     return (
         <div>
            <h1 className='mouse'>Mouse dealer</h1>
-          <div className='container-shop'>
+          <div className='container-shop container'>
           <div className='product-container second'>
           {
               products.map(product=><Product
@@ -29,17 +29,9 @@ const Shop = () => {
               ></Product>)
           }
           </div>
-          <div className='first'>
-          <h2>Selected Items</h2>
-                    <div>    
-                        {cart}
-              </div>
-              <div>
-              <button><h5>Choose 1 For Me</h5></button>
-              </div>
-              <div>
-              <button><h5>Choose Again</h5></button>
-              </div>
+          {/* part of cart */}
+          <div>
+          <Cart cart={cart}></Cart>
           </div>
           </div>
         </div>
