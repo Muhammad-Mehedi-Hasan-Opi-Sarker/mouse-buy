@@ -11,7 +11,8 @@ const Shop = () => {
     return (
         <div>
            <h1>Mouse dealer</h1>
-          <div>
+          <div className='container'>
+          <div className='product-container'>
           {
               products.map(product=><Product
               key={product.id}
@@ -21,6 +22,7 @@ const Shop = () => {
           </div>
           <div>
               <h2>Selected Items</h2>
+          </div>
           </div>
         </div>
     );
