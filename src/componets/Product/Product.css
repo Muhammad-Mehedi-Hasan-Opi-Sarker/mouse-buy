@@ -2,3 +2,19 @@
     height: 286px;
     width: 286px;
 }
+.product{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.product button{
+    height: 48px;
+    width: 100%;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.product button:hover{
+    background-color: orange;
+}
