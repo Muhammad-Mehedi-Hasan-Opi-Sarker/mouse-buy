@@ -7,7 +7,7 @@ const Product = (props) => {
     const{name,img,price}=props.product;
     return (
         <div className='product'>
-            <img src={img} alt="" />
+            <img className='img-100' src={img} alt="" />
             <h5>{name}</h5>
             <p>Price:${price}</p>
             <button className='btn'>Add to cart 
