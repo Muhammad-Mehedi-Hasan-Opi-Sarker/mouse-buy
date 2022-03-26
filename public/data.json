@@ -1,0 +1,63 @@
+[
+    {
+        "id":1,
+        "name":"Micropack M101",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/micropack/m101/m101-1-500x500.jpg",
+        "price":15
+
+    },
+    {
+        "id":2,
+        "name":"Micropack M103",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/micropack/m103/m103-1-500x500.jpg",
+        "price":12
+    },
+    {
+        "id":3,
+        "name":"WMS010WN",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/walton/wms010wn/wms010wn-01-500x500.jpg",
+        "price":4.23
+    },
+    {
+        "id":4,
+        "name":"WMS011WN",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/walton/wms011wn/wms011wn-01-500x500.jpg",
+        "price":13
+    },
+    {
+        "id":5,
+        "name":"T533",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/fantech/t533/t533-01-500x500.jpg",
+        "price":9
+    },
+    {
+        "id":6,
+        "name":" Rapoo N200",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/rapoo/n200/n200-500x500.jpg",
+        "price":20
+    },
+    {
+        "id":7,
+        "name":" M363",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/delux/363bu/363bu-main-500x500.PNG",
+        "price":21
+    },
+    {
+        "id":8,
+        "name":" Havit MS981GT",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/havit/ms981gt/ms981gt-500x500.jpeg",
+        "price":18
+    },
+    {
+        "id":9,
+        "name":"MU100",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/astrum/mu100/mu100-01-500x500.jpg",
+        "price":31
+    },
+    {
+        "id":10,
+        "name":"MotoSpeed G 370",
+        "img":"https://www.startech.com.bd/image/cache/catalog/mouse/motospeed/g-370/g370-01-500x500.jpg",
+        "price":25
+    }
+]
