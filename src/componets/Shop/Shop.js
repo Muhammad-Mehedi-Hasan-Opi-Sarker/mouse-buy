@@ -14,6 +14,7 @@ const Shop = () => {
           <div>
           {
               products.map(product=><Product
+              key={product.id}
               product={product}
               ></Product>)
           }
